@@ -1,0 +1,82 @@
+/* font-family: 'Babylonica', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Playball', cursive; */
+html {
+    background:rgb(248, 245, 248);
+    font-family: "Playball", "cursive"; 
+}
+
+/* HEADER */
+.name {
+    font-family: "playball";
+    letter-spacing: 1.5px;
+    margin-left: 150px;
+    font-weight: 600;
+}
+.header div {
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navbar {
+    display: flex;
+    margin-right: 200px;
+    gap: 50px;
+    list-style-type: none;
+    font-weight: 600;
+    letter-spacing: 1.5px;  
+}
+
+                                                    /* SECTION 2 */
+.section2 {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+.section2 h1 {
+    color: rgb(112, 109, 109);
+}
+
+.love1 {
+    color: rgb(240, 221, 221);
+    display: flex;
+    align-items: center;
+    margin-right: 150px;
+}
+.love2 {
+    color: rgb(240, 221, 221);
+    display: flex;
+    margin-left: 150px;
+}
+
+                                                            /* SECTION3 */
+.section3 {
+        /* width: 100%;
+        height: 50vh; */
+        display: flex;
+}
+
+.intro {
+    width: 500px;
+    height: 300px;
+    margin: 50px 150px 50px 200px;
+}
+
+.image {
+    display: flex;
+    gap: 35px;
+    margin-left: 200px;
+    margin-bottom: 100px;
+}
+.image img {
+    width: 25px;
+    height: 25px;
+    
+   
+   
+    
+}
+.elly {
+    margin-left: 250px;
+   
+}
