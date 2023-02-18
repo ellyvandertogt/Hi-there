@@ -1,6 +1,21 @@
 /* font-family: 'Babylonica', cursive;
 font-family: 'Open Sans', sans-serif;
 font-family: 'Playball', cursive; */
+/* RESET */
+*, 
+*::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+    /* height: 100vh; */
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+}
+
 html {
     background:rgb(248, 245, 248);
     font-family: "Playball", "cursive"; 
@@ -12,10 +27,14 @@ html {
     letter-spacing: 1.5px;
     margin-left: 150px;
     font-weight: 600;
+    letter-spacing: 2px;
 }
 .header div {
     display: flex;
     justify-content: space-between;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
    
 }
 .navbar {
@@ -35,6 +54,7 @@ html {
 }
 .section2 h1 {
     color: rgb(112, 109, 109);
+    letter-spacing: 4px;
 }
 
 .love1 {
@@ -54,29 +74,51 @@ html {
         /* width: 100%;
         height: 50vh; */
         display: flex;
+        justify-content: center;
+        margin-top:30px;
+        gap: 75px;
 }
 
 .intro {
     width: 500px;
     height: 300px;
-    margin: 50px 150px 50px 200px;
+    margin-top: 65px;
+    /* margin-left: 350px; */
+    letter-spacing: 1.5px;
+}
+.intro h1 {
+    letter-spacing: 1.5px;
+    font-size:x-large
+}
+.intro h3 {
+    letter-spacing: 1.5px;
+    font-size:large;
+    color: rgb(34, 31, 31);
 }
 
 .image {
     display: flex;
-    gap: 35px;
-    margin-left: 200px;
-    margin-bottom: 100px;
+    gap: 50px;
+    margin-top: 20px;
+    /* margin-left: 350px; */
+    
 }
 .image img {
     width: 25px;
     height: 25px;
     
    
+    
+   
    
     
 }
 .elly {
-    margin-left: 250px;
-   
+    /* margin-left: -1200px; */
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
 }
